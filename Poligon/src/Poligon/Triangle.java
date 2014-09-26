@@ -1,9 +1,13 @@
 package Poligon;
 
 public class Triangle extends Poligon {
+	
+	double base, altura;
 
-	public Triangle() {
+	public Triangle(double base, double altura) {
 		// TODO Auto-generated constructor stub
+		this.base = base;
+		this.altura = altura;
 	}
 
 	@Override

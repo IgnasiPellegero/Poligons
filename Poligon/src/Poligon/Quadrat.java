@@ -1,9 +1,13 @@
 package Poligon;
 
 public class Quadrat extends Poligon {
+	
+	double base, altura;
 
-	public Quadrat() {
+	public Quadrat(double base, double altura) {
 		// TODO Auto-generated constructor stub
+		this.base = base;
+		this.altura = altura;
 	}
 
 	@Override
