@@ -17,7 +17,7 @@ public class Main {
 		tree.add(r1);
 		
 		System.out.println(tree);
-		//Programa no acabat
+		//Programa si acabat
 	}
 
 }
