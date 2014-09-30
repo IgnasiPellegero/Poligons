@@ -17,7 +17,11 @@ public class Main {
 		tree.add(r1);
 		
 		System.out.println(tree);
+		
+		
+		
 		//Programa si acabat.
+		//Final!!!!
 	}
 
 }
