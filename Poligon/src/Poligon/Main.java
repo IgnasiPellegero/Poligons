@@ -1,5 +1,6 @@
 package Poligon;
 
+import java.util.Iterator;
 import java.util.TreeSet;
 
 public class Main {
@@ -16,8 +17,20 @@ public class Main {
 		tree.add(t1);
 		tree.add(r1);
 		
+		
+		
 		System.out.println(tree);
 		
+		
+		Iterator<Poligon> it = tree.iterator();
+		
+		while (it.hasNext()) {
+			Poligon p = it.next();
+			
+			
+			p.calcularArea();
+			System.out.println("Area és igual a: "+ p.calcularArea());
+		}
 		
 		
 		//Programa si acabat.
