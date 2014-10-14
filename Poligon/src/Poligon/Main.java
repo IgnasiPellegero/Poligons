@@ -29,7 +29,7 @@ public class Main {
 			Poligon p = it.next();
 			
 			p.calcularArea();
-			System.out.println("Area és igual a: "+ p.calcularArea());
+			System.out.println("Area és igual a: "+ p.calcularArea() +" - "+ p.toString());
 		}
 	}
 

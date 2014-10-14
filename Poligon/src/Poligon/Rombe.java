@@ -10,7 +10,6 @@ public class Rombe extends Poligon{
 	}
 	
 	public double calcularArea() {
-		
 		return (altura*amplada) *2;
 	}
 
