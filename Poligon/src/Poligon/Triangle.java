@@ -2,7 +2,7 @@ package Poligon;
 
 public class Triangle extends Poligon {
 	
-	double base, altura;
+	private double base, altura;
 
 	public Triangle(double base, double altura) {
 		// TODO Auto-generated constructor stub

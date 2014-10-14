@@ -2,7 +2,7 @@ package Poligon;
 
 public class Rectangle extends Poligon {
 	
-	double base, altura;
+	private double base, altura;
 
 	public Rectangle(double base, double altura) {
 		// TODO Auto-generated constructor stub

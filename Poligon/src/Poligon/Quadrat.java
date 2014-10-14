@@ -2,39 +2,32 @@ package Poligon;
 
 public class Quadrat extends Poligon {
 	
-	double base, altura;
+	private double lado;
 
-	public Quadrat(double base, double altura) {
+	public Quadrat(double lado) {
 		// TODO Auto-generated constructor stub
-		this.base = base;
-		this.altura = altura;
+		this.lado = lado;
 	}
 
 	@Override
 	public double calcularArea() {
 		// TODO Auto-generated method stub
-		return base * altura;
+		return lado * lado;
 	}
 
-	public double getBase() {
-		return base;
+	public double getLado() {
+		return lado;
 	}
 
-	public void setBase(double base) {
-		this.base = base;
-	}
-
-	public double getAltura() {
-		return altura;
-	}
-
-	public void setAltura(double altura) {
-		this.altura = altura;
+	public void setLado(double lado) {
+		this.lado = lado;
 	}
 
 	@Override
 	public String toString() {
-		return "Quadrat [base=" + base + ", altura=" + altura + "]";
+		return "Quadrat [lado=" + lado + "]";
 	}
+
+
 
 }
