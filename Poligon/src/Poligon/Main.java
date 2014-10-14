@@ -13,11 +13,13 @@ public class Main {
 		Rectangle r1 = new Rectangle(6, 10);
 		Quadrat q1 = new Quadrat(8);
 		Rectangle r2 = new Rectangle(60, 100);
+		Rombe ro1 = new Rombe(20, 80);
 		
 		tree.add(q1);
 		tree.add(t1);
 		tree.add(r1);
 		tree.add(r2);
+		tree.add(ro1);
 
 		System.out.println(tree);
 
