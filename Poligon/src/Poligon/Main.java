@@ -20,6 +20,8 @@ public class Main {
 		tree.add(r1);
 		tree.add(r2);
 		tree.add(ro1);
+		
+		// Estoy haciendo la parte 3 del examen de CV
 
 		System.out.println(tree);
 
